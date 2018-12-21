@@ -1,1 +1,1 @@
-default: --no-source --color --format pretty
+default: -t @watir profile_env=prod --format pretty --format html --out reports.html browserName_env=chrome
